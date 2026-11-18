@@ -153,4 +153,8 @@ buttonNonfunctional.addEventListener("click", () => {
 	}
 });
 
+const ssss = setInterval(function() {
+    document.getElementById("thing").textContent = toString(3900000 * Math.random())
+}, 10)
+
 //}catch(error){document.getElementById("button-main").textContent = error;}
